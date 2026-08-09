@@ -1,0 +1,11 @@
+CREATE DATABASE MokgadiBeaniesDB;
+
+USE MokgadiBeaniesDB;
+CREATE TABLE Customer (
+    CustomerID INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL,
+    Email VARCHAR(100),
+    Address VARCHAR(255)
+);
